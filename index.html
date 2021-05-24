@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> FINAL DESTINATION</title>
+<link href="css/style.css"   rel="stylesheet" type="text/css">
+<meta name="viewport"  content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body> 
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="images/F.PNG.png" class="logo">
+                <ul class="main-nav" id="check-class">
+                    <li><a href="#">PIZZA DELIVERY</a></li>
+                    <li><a href="#">HOW TO ORDER</a></li>
+                    <li><a href="#">CHECK MORE</a></li>
+                    <li><a href="#">SIGN UP</a></li>
+                </ul>
+                <a hrerf="#" class="mobile-icon" id="check-class" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+        <div class="main-content-header">
+
+        <h1>WELCOME TO  <span class="colorchange">FINAL DESTINATION</span>.<br>
+            PIZZA LOVERS BE READY. </h1>
+            <a href="#" class= "btn btn-1">CLICK TO ORDER</a>
+            <a href="#" class= "btn btn-2">SHOW ME MORE</a>
+        </div>
+    </header>
+    <script type="text/javascript">
+    function slideshow(){
+        var x=document.getElementById('check-class');
+        if(x.style.display ==="none"){
+            x.style.display="block";
+        }
+        else{
+            x.style.display="none";
+        }
+
+    }</script>
+
+</body>
+
+</html>
